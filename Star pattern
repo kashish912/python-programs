@@ -1,0 +1,8 @@
+n=int(input("Enter the number of rows\n"))
+for row in range(n):
+    for col in range(n):  # n beacause it will take 0 to ....
+        if col==0 or row==(n-1) or col==row:
+            print("*",end="")
+        else:
+            print(end=" ")
+    print()
